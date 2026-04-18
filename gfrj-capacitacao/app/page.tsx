@@ -33,7 +33,7 @@ export default function Home() {
                 : null
 
               return (
-                <Link href={`/subsistemas/${sub.slug}`} key={sub.slug} className="card">
+                <Link href={`/${sub.slug}`} key={sub.slug} className="card">
                   <div className="card-thumb" style={{ background: `${sub.cor}15`, border: `1px solid ${sub.cor}25` }}>
                     <div className="card-thumb-placeholder">{sub.icone}</div>
                   </div>
