@@ -1,0 +1,205 @@
+[
+  {
+    "slug": "avionica",
+    "nome": "Aviônica",
+    "descricao": "Sistemas eletrônicos embarcados, telemetria, sensores e comunicação do foguete.",
+    "cor": "#00C2FF",
+    "icone": "📡",
+    "trilhas": [
+      {
+        "id": "avion-01",
+        "titulo": "Introdução à Aviônica",
+        "descricao": "Visão geral dos sistemas eletrônicos em foguetes de sondagem.",
+        "aulas": [
+          {
+            "id": "avion-01-01",
+            "titulo": "O que é aviônica?",
+            "descricao": "Conceitos básicos e papel da aviônica em foguetes.",
+            "youtube_id": "5ubBs_rhqGY",
+            "duracao": "10min"
+          },
+          {
+            "id": "avion-01-02",
+            "titulo": "Sensores e atuadores",
+            "descricao": "Tipos de sensores utilizados: acelerômetros, barômetros, GPS.",
+            "youtube_id": "5ubBs_rhqGY",
+            "duracao": "15min"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-avion-01",
+          "perguntas": [
+            {
+              "id": "q1",
+              "enunciado": "Qual sensor é usado para medir altitude barométrica?",
+              "alternativas": ["Acelerômetro", "Barômetro", "Magnetômetro", "Giroscópio"],
+              "correta": 1
+            },
+            {
+              "id": "q2",
+              "enunciado": "O que é telemetria?",
+              "alternativas": [
+                "Medição de temperatura",
+                "Transmissão de dados em tempo real",
+                "Controle remoto do foguete",
+                "Sistema de recuperação"
+              ],
+              "correta": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slug": "estruturas",
+    "nome": "Estruturas",
+    "descricao": "Projeto e análise estrutural do foguete, materiais e fabricação.",
+    "cor": "#FF6B35",
+    "icone": "🔩",
+    "trilhas": [
+      {
+        "id": "estr-01",
+        "titulo": "Fundamentos de Estruturas",
+        "descricao": "Conceitos de resistência dos materiais aplicados a foguetes.",
+        "aulas": [
+          {
+            "id": "estr-01-01",
+            "titulo": "Cargas estruturais em foguetes",
+            "descricao": "Tipos de cargas: axial, flexão, torção e pressão interna.",
+            "youtube_id": "5ubBs_rhqGY",
+            "duracao": "12min"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-estr-01",
+          "perguntas": [
+            {
+              "id": "q1",
+              "enunciado": "Qual carga predomina durante o voo ascendente de um foguete?",
+              "alternativas": ["Torção", "Flexão", "Carga axial compressiva", "Cisalhamento"],
+              "correta": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slug": "aerodinamica",
+    "nome": "Aerodinâmica",
+    "descricao": "Análise de forças aerodinâmicas, estabilidade e perfis de voo.",
+    "cor": "#7C3AED",
+    "icone": "🌬️",
+    "trilhas": [
+      {
+        "id": "aero-01",
+        "titulo": "Estabilidade de Voo",
+        "descricao": "Centro de pressão, centro de gravidade e margem estática.",
+        "aulas": [
+          {
+            "id": "aero-01-01",
+            "titulo": "CP e CG em foguetes",
+            "descricao": "Como calcular e balancear o centro de pressão e gravidade.",
+            "youtube_id": "5ubBs_rhqGY",
+            "duracao": "14min"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-aero-01",
+          "perguntas": [
+            {
+              "id": "q1",
+              "enunciado": "Para um foguete ser estável, o CG deve estar:",
+              "alternativas": [
+                "Atrás do CP",
+                "Na mesma posição que o CP",
+                "À frente do CP",
+                "Não importa a posição"
+              ],
+              "correta": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slug": "recuperacao",
+    "nome": "Recuperação",
+    "descricao": "Sistemas de recuperação, paraquedas, ejection charges e eletrônica de bordo.",
+    "cor": "#10B981",
+    "icone": "🪂",
+    "trilhas": [
+      {
+        "id": "rec-01",
+        "titulo": "Sistemas de Recuperação",
+        "descricao": "Visão geral dos sistemas de recuperação em foguetes de competição.",
+        "aulas": [
+          {
+            "id": "rec-01-01",
+            "titulo": "Dual deploy: apogeu e main",
+            "descricao": "Como funciona o sistema de duplo acionamento de paraquedas.",
+            "youtube_id": "5ubBs_rhqGY",
+            "duracao": "11min"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-rec-01",
+          "perguntas": [
+            {
+              "id": "q1",
+              "enunciado": "O que é 'dual deploy'?",
+              "alternativas": [
+                "Dois foguetes simultâneos",
+                "Acionamento do drogue no apogeu e main em baixa altitude",
+                "Sistema com dois paraquedas principais",
+                "Recuperação com dois altímetros"
+              ],
+              "correta": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slug": "propulsao",
+    "nome": "Propulsão",
+    "descricao": "Motores, propelentes, câmara de combustão e análise de desempenho.",
+    "cor": "#F59E0B",
+    "icone": "🚀",
+    "trilhas": [
+      {
+        "id": "prop-01",
+        "titulo": "Fundamentos de Propulsão",
+        "descricao": "Princípios termodinâmicos e equação de Tsiolkovsky.",
+        "aulas": [
+          {
+            "id": "prop-01-01",
+            "titulo": "Equação do foguete",
+            "descricao": "Derivação e aplicação da equação de Tsiolkovsky.",
+            "youtube_id": "5ubBs_rhqGY",
+            "duracao": "16min"
+          }
+        ],
+        "quiz": {
+          "id": "quiz-prop-01",
+          "perguntas": [
+            {
+              "id": "q1",
+              "enunciado": "O impulso específico (Isp) mede:",
+              "alternativas": [
+                "A força total do motor",
+                "A eficiência do propelente",
+                "A massa do propelente",
+                "A pressão na câmara"
+              ],
+              "correta": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
