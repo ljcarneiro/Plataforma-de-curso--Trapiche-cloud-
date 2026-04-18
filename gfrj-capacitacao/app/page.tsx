@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import subsistemas from '../data/subsistemas.json'
-import type { Subsistema } from '../lib/types'
+import type { Subsistema } from '../lib/types.ts'
 
 export default function Home() {
   const data = subsistemas as Subsistema[]
