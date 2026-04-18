@@ -8,8 +8,8 @@ export function generateStaticParams() {
   return (subsistemas as Subsistema[]).map(s => ({ slug: s.slug }))
 }
 
-export default async function SubsistemaPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
+export default function SubsistemaPage({ params }: { params: { slug: string } }) {
+  const { slug } = params
   const sub = (subsistemas as Subsistema[]).find(s => s.slug === slug)
   if (!sub) notFound()
 
